@@ -1,0 +1,154 @@
+body,html{
+    max-width: 100%;
+}
+
+.header{
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+
+.navbar{
+    padding: 20px 0px;
+}
+
+.navbar-brand{
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 2em;
+    color: #262626;
+}
+
+.nav-item{
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link:hover
+{
+    background: #262626;
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link
+{
+    color: #262626;
+    padding: 5px 15px;
+}
+
+h1{
+    color: white;
+    background-color: #031319;
+}
+
+.banner{
+    position: relative;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    /* padding: 150px 0px 100px; */
+}
+.banner-p{
+    padding-top: 150px;
+}
+
+.formulario{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+    
+}
+
+.banner h2{
+    margin: 0;
+    padding: 0;
+    font-size: 2.8em;
+    font-weight: 1000;
+    color: #262626;
+    text-transform: uppercase;
+}
+
+.banner p{
+    margin: 1em 0 0;
+    padding: 0;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    color: #262626;
+}
+
+.navbar-light .navbar-toggler
+{
+    border: none;
+    color: #fff;
+    border: 2px solid #7f7f7f;
+    border-radius: 0;
+    outline: none;
+}
+
+/*.navbar-collapse
+{
+    background: #fff;
+}*/
+
+@media  (max-width: 768px)
+{
+    .banner
+    {
+        padding: 200px 0;
+    }
+    .banner h2
+    {
+        font-size: 1.8em;
+    }
+}
+
+#login {
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 2em;
+    font: #262626;
+}
+
+#login:hover{
+    background: #262626;
+    color: #fff; 
+}
+
+.dropdown-item{
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 1em;
+    color: #262626;
+}
+
+.dropdown-item:hover{
+    background: #262626;
+    color: #7f7f7f;    
+}
+
+.max-width{
+    max-width: 750px;
+}
+.btn-success{
+    border-radius: 0px;
+    min-height: 50px;
+}
+
+.plantabaja{
+    position: absolute;
+    
+    z-index: 1;
+}
+.plantabeepcons{
+    position: absolute;
+   
+    z-index: 2;
+}
